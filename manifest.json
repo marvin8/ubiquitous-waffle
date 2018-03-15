@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Ubiquitous Waffle",
+  "version": "0.1",
+
+  "description": "Replace any mention of money laundering with financial freedom.",
+
+  "icons": { 
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [ 
+    { "matches": ["<all_urls>"], 
+      "js": ["change-ubiquitous-waffle.js"] 
+    }
+  ]
+
+}
